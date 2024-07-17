@@ -1,0 +1,25 @@
+s21_cat.exe test.txt
+
+s21_cat.exe -b -e -n -s -t gg.txt t.txt
+s21_cat.exe -e -n -t gg.txt t.txt
+s21_cat.exe -s gg.txt t.txt
+s21_cat.exe -b gg.txt t.txt
+s21_cat.exe -benst gg.txt t.txt
+s21_cat.exe -b -E -n -s -T gg.txt t.txt
+s21_cat.exe -be -n -s -T gg.txt t.txt
+s21_cat.exe --number-nonblank -E --number --squeeze-blank -T gg.txt t.txt
+#################O####################
+################OOO###################
+#################O####################
+./s21_cat test.txt
+./s21_cat -b -e -n -s -t gg.txt t.txt
+./s21_cat -e -n -t gg.txt t.txt
+./s21_cat -s gg.txt t.txt
+./s21_cat -b gg.txt t.txt
+./s21_cat -benst gg.txt t.txt
+./s21_cat -b -E -n -s -T gg.txt t.txt
+./s21_cat -be -n -s -T gg.txt t.txt
+./s21_cat --number-nonblank -E --number --squeeze-blank -T gg.txt t.txt
+#################O####################
+#################O####################
+################OOO###################
